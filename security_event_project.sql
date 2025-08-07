@@ -1,4 +1,5 @@
-CREATE TABLE Users (...);
-INSERT INTO Users ...;
-CREATE TABLE Logs (...);
-SELECT ... FROM ... JOIN ...;
+CREATE TABLE Users (
+  UserID INT,
+  UserName VARCHAR(50),
+  Department VARCHAR(50)
+);
